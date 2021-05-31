@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Basic_Core;
+using System;
 
 namespace Basic_Programs
 {
@@ -6,9 +7,10 @@ namespace Basic_Programs
     {
         static void Main()
         {
-            Console.WriteLine("Welcome to Some basic programs"); 
+            Console.WriteLine("Welcome to Some basic programs");
             Console.WriteLine("Enter a Program number : ");
             Console.WriteLine("1. Flip Coin and print percentage of Heads and Tails");
+            Console.WriteLine("2. Leap Year");
 
 
             int programNumber = Convert.ToInt32(Console.ReadLine());
@@ -18,6 +20,10 @@ namespace Basic_Programs
                 case 1:
                     flipcoin fc = new flipcoin();
                     fc.HeadsTailsPercentage();
+                    break;
+                case 2:
+                    LeapYear l = new LeapYear();
+                    l.year(2021);
                     break;
 
 
@@ -29,3 +35,4 @@ namespace Basic_Programs
         }
     }
 }
+
