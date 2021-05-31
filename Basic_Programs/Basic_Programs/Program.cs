@@ -11,6 +11,7 @@ namespace Basic_Programs
             Console.WriteLine("Enter a Program number : ");
             Console.WriteLine("1. Flip Coin and print percentage of Heads and Tails");
             Console.WriteLine("2. Leap Year");
+            Console.WriteLine("3. PowerOfTWO");
 
 
             int programNumber = Convert.ToInt32(Console.ReadLine());
@@ -23,7 +24,11 @@ namespace Basic_Programs
                     break;
                 case 2:
                     LeapYear l = new LeapYear();
-                    l.year(2021);
+                    l.year(2014);
+                    break;
+                case 3:
+                    PowerOfTWO pow = new PowerOfTWO();
+                    pow.CheckPower(30);
                     break;
 
 
