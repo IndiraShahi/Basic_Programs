@@ -17,6 +17,7 @@ namespace Basic_Programs
             Console.WriteLine("6. Quotient Remainder");
             Console.WriteLine("7. Swapping of two numbers");
             Console.WriteLine("8. Even and Odd numbers");
+            Console.WriteLine("9. Check alphabet is vowel or Consonant");
 
 
 
@@ -55,6 +56,11 @@ namespace Basic_Programs
                 case 8:
                     EvenOdd evenOdd = new EvenOdd();
                     evenOdd.EvenOrOdd(7);
+                    break;
+                case 9:
+                   
+                    CheckAlphabet checkAlphabet = new CheckAlphabet();
+                    checkAlphabet.CheckVowel('a');
                     break;
 
 
