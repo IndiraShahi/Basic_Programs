@@ -12,6 +12,7 @@ namespace Basic_Programs
             Console.WriteLine("1. Flip Coin and print percentage of Heads and Tails");
             Console.WriteLine("2. Leap Year");
             Console.WriteLine("3. PowerOfTWO");
+            Console.WriteLine("4. Harmonic Number");
 
 
             int programNumber = Convert.ToInt32(Console.ReadLine());
@@ -29,6 +30,10 @@ namespace Basic_Programs
                 case 3:
                     PowerOfTWO pow = new PowerOfTWO();
                     pow.CheckPower(30);
+                    break;
+                case 4:
+                    HarmonicNumber hm = new HarmonicNumber();
+                    hm.CheckHarmonicNum(7);
                     break;
 
 
