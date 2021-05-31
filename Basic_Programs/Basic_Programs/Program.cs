@@ -18,8 +18,7 @@ namespace Basic_Programs
             Console.WriteLine("7. Swapping of two numbers");
             Console.WriteLine("8. Even and Odd numbers");
             Console.WriteLine("9. Check alphabet is vowel or Consonant");
-
-
+            Console.WriteLine("10. Check greatest number");
 
             int programNumber = Convert.ToInt32(Console.ReadLine());
 
@@ -61,6 +60,10 @@ namespace Basic_Programs
                    
                     CheckAlphabet checkAlphabet = new CheckAlphabet();
                     checkAlphabet.CheckVowel('a');
+                    break;
+                case 10:
+                    LargestNumber num = new LargestNumber();
+                    num.Largest(5, 10, 15);
                     break;
 
 
