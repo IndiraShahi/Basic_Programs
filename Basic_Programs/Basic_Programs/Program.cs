@@ -15,6 +15,7 @@ namespace Basic_Programs
             Console.WriteLine("4. Harmonic Number");
             Console.WriteLine("5. Prime Factors");
             Console.WriteLine("6. Quotient Remainder");
+            Console.WriteLine("7. Swapping of two numbers");
 
 
 
@@ -45,6 +46,10 @@ namespace Basic_Programs
                 case 6:
                     QuotientRemainder quotientRemainder1 = new QuotientRemainder();
                     quotientRemainder1.QuotientAndRemainder();
+                    break;
+                case 7:
+                    Swap swap = new Swap();
+                    swap.SwapTwoNumbers(5, 15);
                     break;
 
 
