@@ -14,6 +14,8 @@ namespace Basic_Programs
             Console.WriteLine("3. PowerOfTWO");
             Console.WriteLine("4. Harmonic Number");
             Console.WriteLine("5. Prime Factors");
+            Console.WriteLine("6. Quotient Remainder");
+
 
 
             int programNumber = Convert.ToInt32(Console.ReadLine());
@@ -39,6 +41,10 @@ namespace Basic_Programs
                 case 5:
                     PrimeFactor factor = new PrimeFactor();
                     factor.Factor();
+                    break;
+                case 6:
+                    QuotientRemainder quotientRemainder1 = new QuotientRemainder();
+                    quotientRemainder1.QuotientAndRemainder();
                     break;
 
 
