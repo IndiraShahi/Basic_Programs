@@ -16,6 +16,7 @@ namespace Basic_Programs
             Console.WriteLine("5. Prime Factors");
             Console.WriteLine("6. Quotient Remainder");
             Console.WriteLine("7. Swapping of two numbers");
+            Console.WriteLine("8. Even and Odd numbers");
 
 
 
@@ -49,7 +50,11 @@ namespace Basic_Programs
                     break;
                 case 7:
                     Swap swap = new Swap();
-                    swap.SwapTwoNumbers(5, 15);
+                    swap.SwapTwoNumbers(10, 20);
+                    break;
+                case 8:
+                    EvenOdd evenOdd = new EvenOdd();
+                    evenOdd.EvenOrOdd(7);
                     break;
 
 
