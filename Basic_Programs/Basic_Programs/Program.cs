@@ -13,6 +13,7 @@ namespace Basic_Programs
             Console.WriteLine("2. Leap Year");
             Console.WriteLine("3. PowerOfTWO");
             Console.WriteLine("4. Harmonic Number");
+            Console.WriteLine("5. Prime Factors");
 
 
             int programNumber = Convert.ToInt32(Console.ReadLine());
@@ -34,6 +35,10 @@ namespace Basic_Programs
                 case 4:
                     HarmonicNumber hm = new HarmonicNumber();
                     hm.CheckHarmonicNum(7);
+                    break;
+                case 5:
+                    PrimeFactor factor = new PrimeFactor();
+                    factor.Factor();
                     break;
 
 
